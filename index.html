@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="container">
+
         <div class="areaencripatadora">
             <textarea name="texto" 
             id="texto" 
@@ -18,10 +19,41 @@
             rows="10" 
             placeholder = "ingrese el texto que quiere encriptar"
             ></textarea>
-        </div>
+       
+
         <div class="terminos y condiciones">
             <p>Solo caraceteres en minuscula y sin acentos</p>
         </div>
+ 
+
+        <div class="button">
+            
+            <button class ="bt-encriptar"  type="button" onclick="Encriptar()">Encriptar
+            </button>
+
+
+            <input type="button"
+             name="Desencriptar" 
+             id="bt_Desencriptar" 
+             value="Desencriptar" 
+             onclick="Desencriptar()"/>
+
+         </div>
+        </div>
+    
+         <div class="encriptar" > <img src="" alt="" id="imagen1">
+            <div class="mensaje-encriptado" id="mensaje-encriptado">
+                <h2 id="titulo-mensaje">No se a encontrado mensaje</h2>
+                <p .id="parrafo">ingrese el texto que quiere encriptar o desencriptar</p>
+                <textarea name="mensaje" 
+                id="mensaje" 
+                cols="30" 
+                rows="10" 
+                class="mensaje"></textarea>
+            </div>
+
+         </div>
+       
     </div>
     
 </body>
