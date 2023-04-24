@@ -11,7 +11,7 @@
 <body>
     <div class="container">
 
-        <div class="areaencripatadora">
+        <div class="areaEnCripatadora">
             <textarea name="texto" 
             id="texto" 
             class="texto"
@@ -21,35 +21,33 @@
             ></textarea>
        
 
-        <div class="terminos y condiciones">
+        <div class="terminos">
             <p>Solo caraceteres en minuscula y sin acentos</p>
         </div>
  
 
         <div class="button">
             
-            <button class ="bt-encriptar"  type="button" onclick="Encriptar()">Encriptar
+            <button class ="bt-encriptar"  type="button" onclick="Encriptar()">encriptar
             </button>
 
 
-            <input type="button"
-             name="Desencriptar" 
-             id="bt_Desencriptar" 
+            <input 
+            type="button"
+            class="bt_Desencriptar" 
              value="Desencriptar" 
-             onclick="Desencriptar()"/>
+             onclick="Desencriptar()"/ >
+            
 
          </div>
         </div>
     
-         <div class="encriptar" > <img src="" alt="" id="imagen1">
-            <div class="mensaje-encriptado" id="mensaje-encriptado">
-                <h2 id="titulo-mensaje">No se a encontrado mensaje</h2>
-                <p .id="parrafo">ingrese el texto que quiere encriptar o desencriptar</p>
-                <textarea name="mensaje" 
-                id="mensaje" 
-                cols="30" 
-                rows="10" 
-                class="mensaje"></textarea>
+         <div class="encriptar" >
+             <img src="icons,imajenes/desencriptar.png" alt="" id="imagen1">
+             <div class="mensajeEncriptado" id="mensajeEncriptado">
+                <h2 id="tituloMensaje">No se a encontrado mensaje</h2>
+                <p id="parrafo">ingrese el texto que quiere encriptar o desencriptar</p>
+                
             </div>
 
          </div>
@@ -57,5 +55,5 @@
     </div>
     
 </body>
-<script src ="index.json"></script>
+<script src ="index.js"></script>
 </html>
