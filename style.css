@@ -121,7 +121,7 @@
 
 }
 
-.mensaje-encriptado{
+.mensajeEncriptado{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,7 +133,7 @@
     top: 65%;
     text-align: center;
 }
-.mensaje-encriptado h2{
+.mensajeEncriptado h2{
     width: 60%;
     font-family: "Inter";
     font-style: normal;
@@ -143,7 +143,7 @@
     text-align: center;
     color: #344a40;
 }
-.mensaje-encriptado p{
+.mensajeEncriptado p{
     width: 80;
     font-family: "Inter";
     font-style: normal;
@@ -213,14 +213,14 @@
     top: 80%;
 
 }
-.mensaje-encriptado{
+.mensajeEncriptado{
     width: 100%;
     top: 5%;
 }
 .encriptar img {
     top:0;
     display: none;
-    visibility: hidden;
+    visibility: hidden; 
 
 }
 }
