@@ -20,12 +20,14 @@ function encriptar() {
       imagen1.src = "./icons,imajenes/encriptado-de-datos.png";
       tituloMensaje.textContent = "Ningún mensaje fue encontrado";
       parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
-      Swal.fire({
-        icon: 'error',
-        title: 'Oops...',
-        text: '¡Debes ingresar un texto!',
-       
-      })
+      swal({
+        title: "¡Oops!",
+        text: "¡Debes ingresar un texto!",
+        icon: "error",
+        button: "¡Aceptar!",
+      });
+
+      
     }
   }
   
@@ -54,14 +56,17 @@ function encriptar() {
 
         tituloMensaje.textContent = "Ningún mensaje fue encontrado";
         parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
+
+        swal({
+            title: "¡Oops!",
+            text: "¡Debes ingresar un texto!",
+            icon: "error",
+            button: "¡Aceptar!",
+          });
  
 
-        Swal.fire({
-            icon: 'error',
-            title: 'Oops...',
-            text: '¡Debes ingresar un texto!',
-           
-          })
+      
+        
         
       }
   }
